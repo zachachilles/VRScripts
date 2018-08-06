@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//this script is no longer used - it was used to initiate an earlier version of the hands if they were not properly set up in the unity scene view
 public class AvatarCalibrator : MonoBehaviour
     {
 
