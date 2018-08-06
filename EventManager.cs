@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using VRTK;
-//this script is not actually used
+
 
 public class EventManager : MonoBehaviour {
     public delegate void LeverAction();

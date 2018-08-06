@@ -143,7 +143,7 @@ public class Laser : MonoBehaviour {
         bool hit = Physics.Raycast(cast, out hitInfo, length);
         if(hitInfo.collider==null && (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger) || OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger)))
         {
-            checkAnswer();
+ //           checkAnswer();
         }
         if (hitInfo.collider !=null && hitInfo.collider.gameObject != null)
         {

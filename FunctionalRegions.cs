@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//this script is not used for anything
+
 public class FunctionalRegions : MonoBehaviour {
     public Color highlight;
 	// Use this for initialization

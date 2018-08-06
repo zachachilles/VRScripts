@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-//this script is used to generate the floating text seen above brain regions 
+
 namespace TMPro.Examples
 {
 
