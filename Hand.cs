@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+//this script controls the behavior of the hands
 public class Hand : MonoBehaviour
 {
     public Text text;
@@ -27,7 +28,7 @@ public class Hand : MonoBehaviour
 
         grabbing = true;
         RaycastHit[] hits;
-        hits = Physics.SphereCastAll(transform.position, grabRadius, transform.forward, 0f, grabMask);
+        hits = Physics.SphereCastAll(transform.position, grabRadius, transform.forward, 0f, grabMask); //the spherecast is necessary for interacting with objects that collide with the sphere
         if (hits.Length > 0)
         {
             int closestHit = 0;
