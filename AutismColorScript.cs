@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//this script is used for coloring the different meshes in the bert autism brain - which is no longer in use
 public class AutismColorScript : MonoBehaviour {
     GameObject thisObject;
     public Material culloff;
