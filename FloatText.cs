@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
+//this script is used to genreated the floating text that appears above the different brain regions when the laser is pointed at a region and the trigger pulled
 namespace TMPro.Examples
 {
 
@@ -24,7 +24,7 @@ namespace TMPro.Examples
 
         //private int m_frame = 0;
 
-        void Awake()
+        void Awake() 
         {
             m_transform = transform;
             m_floatingText = new GameObject(this.name + " floating text");
