@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//this script is useless- should delete so this will never be read
 public class FollowScript : MonoBehaviour
 {
 
