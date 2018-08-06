@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//this script was used for an earlier iteration of the hands- no longer relevant
 public class FollowScript : MonoBehaviour
 {
 
